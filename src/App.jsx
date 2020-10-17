@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './Components/About'
 import Experience from './Components/Experience'
-import Projects from './Components/Projects'
+import ProjectsList from './Components/ProjectsList'
 import Footer from './Components/Footer'
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <About />
       <Experience />
-      <Projects />
+      <ProjectsList />
       <Footer />
     </>
   )

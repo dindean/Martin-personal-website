@@ -88,6 +88,9 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
+            options: {
+              publicPath: 'assets',
+            },
           },
           {
             loader: 'url-loader',

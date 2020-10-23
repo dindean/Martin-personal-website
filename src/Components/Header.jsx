@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import './Header.scss';
 
 
-const Header = ({ currentUser, hidden }) => {
+const Header = ({ hidden }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
         <img
-          src="https://i.pinimg.com/originals/b8/5f/58/b85f58e2e1e38407f50ea4e2cf30f08f.png"
+          src="https://cdn0.iconfinder.com/data/icons/fitness-78/512/636_Laptop_Computer_Dumbbell_Fitness-512.png"
           alt="logo"
           className="logo"
         />
@@ -17,14 +17,11 @@ const Header = ({ currentUser, hidden }) => {
         <Link className="option" to="/about">
           About
         </Link>
-        <Link className="option" to="/experience">
-          Experience
-        </Link>
         <Link className="option" to="/projects">
           Projects
         </Link>
-        <Link className="option" to="/clients">
-          Clients
+        <Link className="option" to="/training">
+          Training
         </Link>
         <Link className="option" to="/contact">
           Contact

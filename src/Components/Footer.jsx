@@ -5,7 +5,6 @@ import './Footer.scss';
 
 const Footer = () => {
   return (
-    // <footer className={styles.container}>
     <footer className="footer">
     <a
       href="https://github.com/dindean"

@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage'
 import Header from './Components/Header.jsx';
 import About from './Components/About'
-import Training from './Components/Training'
 import ProjectsList from './Components/ProjectsList'
 import Project from './Components/Project'
+import Training from './Components/Training'
 import Footer from './Components/Footer'
 
 const App = () => {

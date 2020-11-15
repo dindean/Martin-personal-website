@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="first-container">
-        <div>
+        <div className="left">
           <img className="photo" src="https://media-exp1.licdn.com/dms/image/C5603AQFf9hnTY-75yA/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=SaTj6K5BB0R4gu1xWa0l4POAP0cWrz3ap7TdJ3sE8pM"></img>
           <h2>
             Hi, I'm <h1 className="myName">Martin</h1>
@@ -19,6 +19,9 @@ const HomePage = () => {
               Portfolio
             </a>
           </Link>
+        </div>
+        <div className="right">
+
         </div>
       </div>
       <div className="second-container">
